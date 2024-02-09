@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Bodoni MT Black', sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #000000, #301934, #4d2d52);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#Images {
+    display: flex;
+}
+
+.Image1,
+.Image2 {
+    height: 290px;
+    width: 300px;
+}
+
+.resetButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;  
+}
+
+.resetButton:hover {
+    background-color: #45a049;
+}
